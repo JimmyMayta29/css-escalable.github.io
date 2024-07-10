@@ -1,0 +1,30 @@
+body {
+    font-family: Nunito;
+}
+
+.contenedor-navegacion {
+    background-color: yellow;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+.img-ubicacion {
+    width: 20px;
+    height: 23px;
+}
+
+.enviar {
+    font-size: 12px;
+}
