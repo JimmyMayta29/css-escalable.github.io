@@ -7,24 +7,41 @@ body {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     ul {
         display: flex;
         list-style-type: none;
+        
     }
 
     li {
         padding: 10px;
         font-size: 14px;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 }
 
+.ubicacion {
+    display: flex;
+}
+
 .img-ubicacion {
-    width: 20px;
+    width: 23px;
     height: 23px;
+    padding-right: 5px;
 }
 
 .enviar {
     font-size: 12px;
+    font-weight: 400;
+}
+
+.contenedor-categorias {
+    width: 600px;
 }

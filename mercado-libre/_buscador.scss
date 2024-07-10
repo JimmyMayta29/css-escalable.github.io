@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(255, 230, 1);
+    background-color: rgb(255, 230, 0);
     display: flex;
     justify-content:space-around;
     margin: 0 auto;
@@ -15,11 +15,17 @@ img {
 form {
     margin: 0 auto;
     display: flex;
+    position: relative;
+    width: 600px;
+    height: 40px;
 }
 
 .lupa {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 .buscar {
@@ -27,12 +33,15 @@ form {
     height: 40px;
     padding: 10px 60px 10px 15px;
     border: none;
+    
 }
 
 
 .contenedor-descarga {
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    padding-top: 5px;
 }
 
 .descarga {
@@ -40,8 +49,13 @@ form {
         text-decoration: none;
         color: black;
     }
-
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 16px;
     margin: 0 auto;
-    padding-top: 8px;
+    padding: 8px 10px;
+}
+
+.img-descarga {
+    width: 30px;
+    height: 30px;
 }

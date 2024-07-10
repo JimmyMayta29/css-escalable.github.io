@@ -1,5 +1,5 @@
 .container {
-  background-color: rgb(255, 230, 1);
+  background-color: rgb(255, 230, 0);
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
@@ -15,11 +15,17 @@ img {
 form {
   margin: 0 auto;
   display: flex;
+  position: relative;
+  width: 600px;
+  height: 40px;
 }
 
 .lupa {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .buscar {
@@ -32,16 +38,24 @@ form {
 .contenedor-descarga {
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  padding-top: 5px;
 }
 
 .descarga {
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 16px;
   margin: 0 auto;
-  padding-top: 8px;
+  padding: 8px 10px;
 }
 .descarga a {
   text-decoration: none;
   color: black;
+}
+
+.img-descarga {
+  width: 30px;
+  height: 30px;
 }
 
 body {
@@ -53,7 +67,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .contenedor-navegacion ul {
   display: flex;
@@ -63,14 +77,28 @@ body {
   padding: 10px;
   font-size: 14px;
 }
+.contenedor-navegacion a {
+  text-decoration: none;
+  color: black;
+}
+
+.ubicacion {
+  display: flex;
+}
 
 .img-ubicacion {
-  width: 20px;
+  width: 23px;
   height: 23px;
+  padding-right: 5px;
 }
 
 .enviar {
   font-size: 12px;
+  font-weight: 400;
+}
+
+.contenedor-categorias {
+  width: 600px;
 }
 
 *,
